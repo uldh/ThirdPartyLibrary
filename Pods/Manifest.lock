@@ -1,0 +1,82 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - DHUtilityLibrary (0.0.4):
+    - Masonry
+  - JJException (0.1.1):
+    - JJException/All (= 0.1.1)
+  - JJException/All (0.1.1):
+    - JJException/ARC
+    - JJException/DeallocBlock
+    - JJException/Main
+    - JJException/MRC
+    - JJException/Swizzle
+  - JJException/ARC (0.1.1):
+    - JJException/DeallocBlock
+    - JJException/Main
+    - JJException/Swizzle
+  - JJException/DeallocBlock (0.1.1)
+  - JJException/Main (0.1.1)
+  - JJException/MRC (0.1.1):
+    - JJException/Main
+    - JJException/Swizzle
+  - JJException/Swizzle (0.1.1)
+  - Masonry (1.1.0)
+  - MJRefresh (3.1.15.7)
+  - Reachability (3.2)
+  - SAMKeychain (1.5.3)
+  - SBJson (5.0.0)
+  - SDWebImage (3.7.2):
+    - SDWebImage/Core (= 3.7.2)
+  - SDWebImage/Core (3.7.2)
+
+DEPENDENCIES:
+  - AFNetworking (= 3.2.1)
+  - DHUtilityLibrary (~> 0.0.4)
+  - JJException (= 0.1.1)
+  - Masonry (>= 1.0.2)
+  - MJRefresh (= 3.1.15.7)
+  - Reachability (= 3.2)
+  - SAMKeychain (= 1.5.3)
+  - SBJson (>= 4.0.1)
+  - SDWebImage (= 3.7.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - DHUtilityLibrary
+    - JJException
+    - Masonry
+    - MJRefresh
+    - Reachability
+    - SAMKeychain
+    - SBJson
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  DHUtilityLibrary: 9b5b1329341365ba5161072d08ed46b198dfae23
+  JJException: f8a0e3ba933f611fe5fc2b0b3506c35f717f4805
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
+  SBJson: 73c848dc34be51fda282fab12bda6c426f5ead08
+  SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
+
+PODFILE CHECKSUM: ab741440918c33a003fa57ef01acb181bf54197c
+
+COCOAPODS: 1.6.0.beta.1
